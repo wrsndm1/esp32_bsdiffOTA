@@ -49,7 +49,6 @@ void app_main()
         {
             ESP_LOGI(TAG, "进入");
             diff_OTA("diff");
-            
             i = 21;
         }
         vTaskDelay(500 / portTICK_PERIOD_MS);
