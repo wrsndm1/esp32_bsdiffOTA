@@ -1,0 +1,46 @@
+{
+    "C_Cpp.intelliSenseEngine": "default",
+    "idf.adapterTargetName": "esp32",
+    "idf.customExtraPaths": "/home/ubuntu/.espressif/tools/xtensa-esp32-elf/esp-2021r2-patch3-8.4.0/xtensa-esp32-elf/bin:/home/ubuntu/.espressif/tools/xtensa-esp32s2-elf/esp-2021r2-patch3-8.4.0/xtensa-esp32s2-elf/bin:/home/ubuntu/.espressif/tools/xtensa-esp32s3-elf/esp-2021r2-patch3-8.4.0/xtensa-esp32s3-elf/bin:/home/ubuntu/.espressif/tools/riscv32-esp-elf/esp-2021r2-patch3-8.4.0/riscv32-esp-elf/bin:/home/ubuntu/.espressif/tools/esp32ulp-elf/2.28.51-esp-20191205/esp32ulp-elf-binutils/bin:/home/ubuntu/.espressif/tools/esp32s2ulp-elf/2.28.51-esp-20191205/esp32s2ulp-elf-binutils/bin:/home/ubuntu/.espressif/tools/openocd-esp32/v0.11.0-esp32-20220411/openocd-esp32/bin",
+    "idf.customExtraVars": {
+        "OPENOCD_SCRIPTS": "/home/ubuntu/.espressif/tools/openocd-esp32/v0.11.0-esp32-20220411/openocd-esp32/share/openocd/scripts"
+    },
+    "idf.espIdfPath": "/home/ubuntu/esp_idf_4.4.2/esp-idf",
+    "idf.espAdfPath": "/home/ubuntu/esp-adf",
+    "idf.openOcdConfigs": [
+        "interface/ftdi/esp32_devkitj_v1.cfg",
+        "target/esp32.cfg"
+    ],
+    "idf.port": "/dev/ttyUSB0",
+    "idf.pythonBinPath": "python",
+    "idf.toolsPath": "/home/ubuntu/.espressif",
+    "idf.flashType": "UART",
+    "files.associations": {
+        "bsdiff.h": "c",
+        "bspatch.h": "c",
+        "fcntl.h": "c",
+        "sdkconfig.h": "c",
+        "unity.h": "c",
+        "bs_type.h": "c",
+        "vfile.h": "c",
+        "lzma_decompress.h": "c",
+        "esp_ota_ops.h": "c",
+        "*.tcc": "c",
+        "exception": "c",
+        "fstream": "c",
+        "iosfwd": "c",
+        "new": "c",
+        "ostream": "c",
+        "sstream": "c",
+        "streambuf": "c",
+        "*.ipp": "c",
+        "array": "c",
+        "string": "c",
+        "string_view": "c",
+        "*.inc": "c",
+        "limits.h": "c",
+        "user_interface.h": "c",
+        "precomp.h": "c",
+        "esp_partition.h": "c"
+    }
+}
